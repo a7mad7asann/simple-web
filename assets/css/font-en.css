@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat/Montserrat-Bold.woff2);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat/Cairo-Medium.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat/Montserrat-Regular.woff2);
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
