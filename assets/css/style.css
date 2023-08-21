@@ -1303,7 +1303,7 @@ message
 }
 
 
-.contact-style input[type="text"],
+.contact-style input[type="text"]:hover,
 [type="email"]:hover {
   border: 3px solid var(--primary-color);
 }
@@ -1331,8 +1331,6 @@ message
 .btn textarea:hover {
   border: 3px solid var(--primary-color);
 }
-
-
 
 .btn button {
   font-size: 15px;
