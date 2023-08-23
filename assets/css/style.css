@@ -253,14 +253,14 @@ why section style
   text-transform: capitalize;
 }
 
-.simple-card .p-text p {
+.simple-card .p-text {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 60px;
 
 }
 
-.simple-card  .decoration::after {
+.simple-card .decoration::after {
   content: '';
   width: 150px;
   height: 2px;
@@ -276,7 +276,7 @@ why section style
   width: 14px;
   height: 14px;
   position: absolute;
-  top: 71px;
+  top: 76px;
   left: 578px;
   background-color: var(--primary-color);
 }
@@ -717,20 +717,16 @@ showcase
 }
 
 .showcase .card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 25px;
-  width: 270px;
-  height: 270px;
   border-radius: 12px;
+  background-color: var(--secondary-color);
+  border: 0;
 }
 
 .showcase .card .img-bc {
   background-color: var(--semi-dark);
   padding: 10px;
   border-radius: 10px;
+  width: 270px;
 }
 
 .showcase .card img {
@@ -743,8 +739,6 @@ showcase
   justify-content: center;
   flex-direction: row;
   gap: 57px;
-
-
   background-color: var(--semi-dark);
   height: 100px;
   width: 100%;
@@ -886,7 +880,7 @@ news
   width: 50px;
 }
 
-.news .card .card-body .icon p{
+.news .card .card-body .icon p {
   margin: 0 auto;
 }
 
@@ -957,26 +951,24 @@ descover
   text-transform: lowercase;
 }
 
-.news .decoration::after {
+.descover .decoration::after {
   content: '';
-  width: 150px;
-  height: 2px;
+  width: 51px;
+  height: 1px;
   position: absolute;
-  top: 110px;
-  left: 45%;
-  background-color: var(--primary-color);
+  top: 21px;
+  left: 437px;
+  background-color: var(--color-white);
 }
 
-.news .decoration::before {
+.descover .decoration::before {
   content: '';
-  border-radius: 50%;
-  width: 14px;
-  height: 14px;
+  width: 51px;
+  height: 1px;
   position: absolute;
-  top: 104px;
-  left: 751px;
-  border: 2px solid var(--color-white);
-  background-color: var(--primary-color);
+  top: 19px;
+  left: 1031px;
+  background-color: var(--color-white);
 }
 
 /*
@@ -989,9 +981,11 @@ descover
   margin: 0 100px 30px 100px;
   text-transform: capitalize;
 }
-.descover .btn{
+
+.descover .btn {
   flex-direction: row;
 }
+
 .descover .content .btn button {
   margin: 10px;
   padding: 7px;
@@ -1066,8 +1060,8 @@ plane-sec
 .plane-sec .decoration::before {
   content: '';
   border-radius: 50%;
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   position: absolute;
   top: 105px;
   left: 750px;
