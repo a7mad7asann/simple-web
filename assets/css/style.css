@@ -31,23 +31,9 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/*flex only*/
-.flex-data {
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
-
 
 
 /*navbar*/
-
-
 .navbar .contain {
   width: 100%;
   display: flex;
@@ -279,10 +265,6 @@ why section style
   top: 76px;
   left: 578px;
   background-color: var(--primary-color);
-}
-
-.simple-card .row {
-  gap: 9px;
 }
 
 .simple-card .card {
