@@ -134,7 +134,7 @@ header .contain h1 {
   text-transform: lowercase;
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 30%;
   transform: translateX(-50%);
 }
 
@@ -146,7 +146,7 @@ header .contain p {
   text-transform: capitalize;
   position: absolute;
   left: 50%;
-  top: 65%;
+  top: 55%;
   transform: translateX(-50%);
 }
 
@@ -235,7 +235,7 @@ why section style
 .simple-card h1 {
   font-size: 40px;
   font-weight: 900;
-  margin-bottom: 60px;
+  margin: 0 325px 60px 341px;
   text-transform: capitalize;
 }
 
@@ -263,7 +263,7 @@ why section style
   height: 14px;
   position: absolute;
   top: 76px;
-  left: 578px;
+  left: 750px;
   background-color: var(--primary-color);
 }
 
@@ -374,28 +374,28 @@ graphic
   color: var(--color-white);
   position: absolute;
   top: 77px;
+  left: 40%;
 }
 
 .features .intro {
   font-size: 20px;
   font-weight: 500;
-  margin: 10px 180px;
   color: var(--color-white);
   position: absolute;
   top: 150px;
 }
 
 .features img {
-  width: 800px;
+  width: 900px;
   position: absolute;
-  top: 255px;
+  top: 210px;
 }
 
 .features .arr-1 img {
   position: absolute;
   width: 90px;
-  top: 272px;
-  left: 720px;
+  top: 230px;
+  left: 625px;
 }
 
 .features .arr-1 p {
@@ -403,15 +403,15 @@ graphic
   text-transform: capitalize;
   font-size: 10px;
   color: var(--color-white);
-  top: 269px;
-  left: 812px;
+  top:227px;
+  left: 720px;
 }
 
 .features .arr-2 img {
   position: absolute;
   width: 90px;
-  top: 322px;
-  left: 810px;
+  top: 280px;
+  left: 710px;
 }
 
 .features .arr-2 p {
@@ -419,15 +419,15 @@ graphic
   text-transform: capitalize;
   font-size: 10px;
   color: var(--color-white);
-  top: 319px;
-  left: 902px;
+  top: 277px;
+  left: 808px;
 }
 
 .features .arr-3 img {
   position: absolute;
   width: 90px;
-  top: 394px;
-  left: 933px;
+  top: 360px;
+  left: 855px;
 }
 
 .features .arr-3 p {
@@ -435,16 +435,16 @@ graphic
   text-transform: capitalize;
   font-size: 10px;
   color: var(--color-white);
-  top: 391px;
-  left: 1025px;
+  top: 355px;
+    left: 950px;
 }
 
 .features .arr-4 img {
   position: absolute;
   rotate: 180deg;
   width: 90px;
-  top: 539px;
-  left: 966px;
+  top: 530px;
+  left: 900px;
 }
 
 .features .arr-4 p {
@@ -452,16 +452,16 @@ graphic
   text-transform: capitalize;
   font-size: 10px;
   color: var(--color-white);
-  top: 563px;
-  left: 1059px;
+  top: 553px;
+  left: 995px;
 }
 
 .features .arr-5 img {
   position: absolute;
   rotate: 180deg;
   width: 90px;
-  top: 530px;
-  left: 590px;
+  top: 520px;
+    left: 480px;
 }
 
 .features .arr-5 p {
@@ -469,15 +469,15 @@ graphic
   text-transform: capitalize;
   font-size: 10px;
   color: var(--color-white);
-  top: 555px;
-  left: 435px;
+  top: 545px;
+  left: 320px;
 }
 
 .features .arr-6 img {
   position: absolute;
   width: 90px;
-  top: 314px;
-  left: 486px;
+  top: 345px;
+  left: 220px;
 }
 
 .features .arr-6 p {
@@ -485,8 +485,8 @@ graphic
   text-transform: capitalize;
   font-size: 10px;
   color: var(--color-white);
-  top: 308px;
-  left: 405px;
+  top: 340px;
+  left: 135px;
 }
 
 /*
@@ -568,7 +568,7 @@ user style
 /*
 brand-container
 */
-.brand-container {
+.brand-container .container {
   display: flex;
   justify-items: center;
   align-items: center;
@@ -580,7 +580,7 @@ brand-container
 .brand-container .right img {
   width: 350px;
   height: 350px;
-  margin: 0px 0px 0px 190px
+  margin: 0px 0px 0px 50px
 }
 
 .brand-container .content h1 {
@@ -685,7 +685,7 @@ showcase
 .showcase h1 {
   font-size: 35px;
   font-weight: 500;
-  margin-bottom: 45px;
+  margin: 0 325px 60px 405px;
   text-transform: capitalize;
   color: var(--color-white);
 
@@ -727,7 +727,6 @@ showcase
 }
 
 .icon-content .icon-card {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -763,7 +762,7 @@ news
 .news h1 {
   font-size: 35px;
   font-weight: 500;
-  margin-bottom: 45px;
+  margin: 0 325px 60px 370px;
   text-transform: capitalize;
 }
 
@@ -795,17 +794,8 @@ news
   margin: 0 180px 30px 180px;
 }
 
-.news .news-card {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: row;
-  margin: 20px 200px 20px 200px;
-}
-
-.news .news-card .card {
-  margin: 0 20px;
-  background-color: var(--gray-transparent-color);
+.news .container .card{
+  margin-bottom: 20px;
 }
 
 .news .news-card .card h1 {
@@ -845,7 +835,7 @@ news
 
 .news .card .card-body .news-icon .card-para {
   font-size: 10px;
-
+  margin-bottom: 0;
   text-transform: capitalize;
 }
 
@@ -872,7 +862,7 @@ news
   filter: var(--filter-gray);
 }
 
-.news .card .card-bod a {
+.news .card .card-body a {
   font-size: 13px;
   font-weight: 500;
   color: var(--color-blue);
@@ -938,8 +928,8 @@ descover
   width: 51px;
   height: 1px;
   position: absolute;
-  top: 21px;
-  left: 437px;
+  top: 20px;
+  left: 230px;
   background-color: var(--color-white);
 }
 
@@ -948,8 +938,8 @@ descover
   width: 51px;
   height: 1px;
   position: absolute;
-  top: 19px;
-  left: 1031px;
+  top: 20px;
+  left: 825px;
   background-color: var(--color-white);
 }
 
@@ -1183,13 +1173,16 @@ plane-sec
 /*
 social 
 */
-.images {
+.images{
+  background-color: var(--gray-transparent-color);
+}
+
+.images .container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 60px;
-  background-color: var(--gray-transparent-color);
   height: 100px;
   width: 100%;
 }
@@ -1198,7 +1191,6 @@ social
   height: 24px;
   width: 24px;
   filter: var(--filter-gray);
-  transition: all 0.2s;
 }
 
 .images .icon-images img:hover {
@@ -1220,7 +1212,7 @@ message
 }
 
 .contact-style h1 {
-  margin: 60px 0;
+  margin: 60px 325px 60px 405px;
   font-weight: 500;
   text-transform: capitalize;
   color: var(--color-white);
@@ -1250,7 +1242,7 @@ message
 
 .contact-style p {
   font-weight: 500;
-  margin: 10PX 290px;
+  margin: 0 150px 10PX 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1284,7 +1276,7 @@ message
   border: 3px solid var(--primary-color);
 }
 
-.btn {
+.botn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1292,7 +1284,7 @@ message
   gap: 20px;
 }
 
-.btn textarea {
+.botn textarea {
   width: 950px;
   height: 100px;
   text-transform: capitalize;
@@ -1304,11 +1296,11 @@ message
 }
 
 
-.btn textarea:hover {
+.botn textarea:hover {
   border: 3px solid var(--primary-color);
 }
 
-.btn button {
+.botn button {
   font-size: 15px;
   font-weight: 500;
   width: 450px;
@@ -1325,7 +1317,7 @@ message
   z-index: 3;
 }
 
-.btn button::after {
+.botn button::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -1340,21 +1332,29 @@ message
   opacity: 0;
 }
 
-.btn button:hover {
+.botn button:hover {
   color: var(--color-dark);
 }
 
-.btn button:hover::after {
+.botn button:hover::after {
   left: 0;
   z-index: -1;
   opacity: 0.5;
 }
 
-footer {
+/*footer*/
+footer{
   background-color: var(--semi-dark);
-  height: 100px;
+}
+
+footer .container {
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--gray-color);
+}
+
+footer .container p{
+  margin-bottom: 0;
 }

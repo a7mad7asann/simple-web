@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width:1440px) and (min-width:1201px) { 
+@media (max-width:1440px) and (min-width:1201px) {
   body {
     background-color: seagreen;
   }
@@ -27,16 +27,15 @@
     background-color: chartreuse;
   }
 
-  .navbar .contain .navbar-nav{
+  .navbar .contain .navbar-nav {
     display: none;
   }
-  
-  .brand-container{
+
+  .brand-container {
     flex-direction: column;
   }
 
-  .features .arr-1 img
-  .features .arr-2 img,
+  .features .arr-1 img .features .arr-2 img,
   .features .arr-3 img,
   .features .arr-4 img,
   .features .arr-5 img,
@@ -47,7 +46,7 @@
   .features .arr-4 p,
   .features .arr-5 p,
   .features .arr-6 p,
-  .descover .decoration::before{
+  .descover .decoration::before {
     left: 800px;
   }
 }
@@ -56,17 +55,16 @@
   body {
     background-color: black;
   }
-  
-  .navbar .contain .navbar-nav{
+
+  .navbar .contain .navbar-nav {
     display: none;
   }
-  
-  .brand-container{
+
+  .brand-container {
     flex-direction: column;
   }
 
-  .features .arr-1 img
-  .features .arr-2 img,
+  .features .arr-1 img .features .arr-2 img,
   .features .arr-3 img,
   .features .arr-4 img,
   .features .arr-5 img,
@@ -77,7 +75,7 @@
   .features .arr-4 p,
   .features .arr-5 p,
   .features .arr-6 p,
-  .descover .decoration::before{
+  .descover .decoration::before {
     left: 800px;
   }
 }
@@ -87,17 +85,16 @@
     background-color: gold;
   }
 
-  
-  .navbar .contain .navbar-nav{
+
+  .navbar .contain .navbar-nav {
     display: none;
   }
-  
-  .brand-container{
+
+  .brand-container {
     flex-direction: column;
   }
 
-  .features .arr-1 img
-  .features .arr-2 img,
+  .features .arr-1 img .features .arr-2 img,
   .features .arr-3 img,
   .features .arr-4 img,
   .features .arr-5 img,
@@ -108,27 +105,26 @@
   .features .arr-4 p,
   .features .arr-5 p,
   .features .arr-6 p,
-  .descover .decoration::before{
+  .descover .decoration::before {
     left: 800px;
   }
 }
 
-@media (max-width:425px) and (min-width:376px){
+@media (max-width:425px) and (min-width:376px) {
   body {
     background-color: rebeccapurple;
   }
 
-  
-  .navbar .contain .navbar-nav{
+
+  .navbar .contain .navbar-nav {
     display: none;
   }
-  
-  .brand-container{
+
+  .brand-container {
     flex-direction: column;
   }
 
-  .features .arr-1 img
-  .features .arr-2 img,
+  .features .arr-1 img .features .arr-2 img,
   .features .arr-3 img,
   .features .arr-4 img,
   .features .arr-5 img,
@@ -139,27 +135,26 @@
   .features .arr-4 p,
   .features .arr-5 p,
   .features .arr-6 p,
-  .descover .decoration::before{
+  .descover .decoration::before {
     left: 800px;
   }
 }
 
-@media (max-width:375px) and (min-width:321px){
+@media (max-width:375px) and (min-width:321px) {
   body {
-    background-color: green;
+    background-color: red;
   }
-  
-  
-  .navbar .contain .navbar-nav{
+
+
+  .navbar .contain .navbar-nav {
     display: none;
   }
-  
-  .brand-container{
+
+  .brand-container {
     flex-direction: column;
   }
 
-  .features .arr-1 img
-  .features .arr-2 img,
+  .features .arr-1 img .features .arr-2 img,
   .features .arr-3 img,
   .features .arr-4 img,
   .features .arr-5 img,
@@ -170,26 +165,141 @@
   .features .arr-4 p,
   .features .arr-5 p,
   .features .arr-6 p,
-  .descover .decoration::before{
+  .descover .decoration::before {
     left: 800px;
   }
 }
 
 @media (max-width:320px) {
-  body {
-    background-color: blue;
+  .plane-sec,
+  .brand,
+  .news,
+  .navbar {
+    padding: 0;
   }
 
- 
-  .navbar .contain .navbar-nav{
+  footer,
+  .contact-style,
+  .images,
+  .plane-sec,
+  .descover,
+  .news,
+  .icon-content,
+  .showcase,
+  .brand,
+  .brand-container,
+  .user-features,
+  .features,
+  .simple-card,
+  header,
+  .navbar {
+    width: 100%;
+
+  }
+
+  .contact-style,
+  .images,
+  .plane-sec,
+  .news,
+  .showcase,
+  .brand,
+  .features,
+  .simple-card {
+    margin-top: 0;
+  }
+
+  header {
+    padding: 50px 0 150px
+  }
+
+  header .contain h1 {
+    font-size: 26px;
+    top: 20%;
+    ;
+  }
+
+  header .contain p {
+    font-size: 18px;
+    top: 52%;
+  }
+
+  .header .input-content {
+    width: 230px;
+  }
+
+  .simple-card h1 {
+    font-size: 30px;
+    margin: 10px 60px 0px 60px;
+  }
+
+  .simple-card .decoration::after {
+    top: 67px;
+    left: 33%;
+  }
+
+  .simple-card .decoration::before {
+    top: 60px;
+    left: 240px;
+  }
+
+  .simple-card .p-text {
+    margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .simple-card .container .container{
+    margin: 10px 100px;
+  }
+  .icon-content {
+    height: 130px;
+  }
+
+
+  .images .container {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+  }
+
+  .brand-container .content .icon {
+    width: 100%;
+  }
+
+  .botn textarea {
+    width: 200px;
+  }
+
+  .brand-container .content .icon .icon-bk {
+    width: 25px;
+    height: 25px;
+  }
+
+  .brand-container .content .icon img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .brand-container .content .icon p {
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .brand-container {
+    gap: 50px;
+  }
+
+  .navbar .contain .navbar-nav {
     display: none;
   }
-  
-  .brand-container{
-    flex-direction: column;
+
+
+  .brand-container .right img {
+    width: 275px;
+    margin: 0;
   }
 
-  .features .arr-1 img
+  .features .arr-1 img,
   .features .arr-2 img,
   .features .arr-3 img,
   .features .arr-4 img,
@@ -201,7 +311,48 @@
   .features .arr-4 p,
   .features .arr-5 p,
   .features .arr-6 p,
-  .descover .decoration::before{
-    left: 800px;
+  .showcase .decoration::before,
+  .features .decoration::before,
+  .news .decoration::before,
+  .plane-sec .decoration::before,
+  .descover .decoration::after,
+  .descover .decoration::after,
+  .contact-style .decoration::before,
+  .descover .decoration::before,
+  .user-features::after,
+  .user-features .right .right-content h1 {
+    left: 90px;
   }
+
+  .features img {
+    width: 300px;
+  }
+
+  .brand-container,
+  .user-features {
+    flex-direction: column;
+  }
+
+
+  .contact-style p,
+  .news .para,
+  .showcase p {
+    margin: 0;
+  }
+
+  .botn button,
+  .botn textarea,
+  .contact-style [type="text"],
+  [type="email"] {
+    width: 300px;
+  }
+
+  .features .intro {
+    margin: 0px;
+  }
+
+  .pricing-card button {
+    width: 200px;
+  }
+
 }
